@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Kar Loru Pehle 🦜🦜</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+/* Add your button styles here */
+button {
+    background-color: #4CAF50;
+    /* Green background color */
+    color: white;
+    /* White text color */
+    padding: 15px 30px;
+    /* Padding */
+    font-size: 18px;
+    /* Font size */
+    border: none;
+    /* No border */
+    cursor: pointer;
+    /* Cursor pointer */
+    border-radius: 5px;
+    /* Border radius */
+    position: fixed;
+    /* Fixed position */
+    bottom: 20px;
+    /* 20px from the bottom */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust for centering */
+  }
+  
+  /* Hover effect */
+  button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+  }
+  
+  /* Style for the play/pause button */
+  #playPauseButton {
+    background-color: #3498db;
+    /* Blue background color */
+    color: white;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding */
+    font-size: 16px;
+    /* Font size */
+    border: none;
+    /* No border */
+  }
+  p{
+  color: #fff;
+}
+      </style>
+</head>
+<body>
+    
+    <canvas id="Canvas"></canvas>
+    <div class="msg">Happy New year, Loru Singhhhr🎉<br>
+         Bhagwan kare ek chokri or Ek internhsip dila de maast sa..<br>
+        Aache se rehne, Loruuu🎉<br>
+       Sorry yrr bhai..
+    </div>
+    <div class="year">
+        <span class="first_year">
+            <span class="y1">2</span>
+            <span class="y2">0</span>
+            <span class="y3">2</span>
+        </span>
+        <span class="old">3</span>
+        <span class="y4 new">4</span>
+        <div class="balloon"></div>
+    </div>
+    <div class="firework" id="firework1">
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+    </div>
+    <div class="firework" id="firework2">
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+    </div>
+    <div class="firework" id="firework3">
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+        <div class="cracker"></div>
+    </div>  
+  <script src="script.js"></script>
+  <button onclick="myFunction()">Click me!</button>
+  <audio id="myAudio" src="song.mp3"></audio>
+
+
+<script>
+  function myFunction() {
+    var audio = document.getElementById("myAudio");
+    audio.play();
+  }
+</script>
+<p class="developer-message" style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%);">Developed by Shubho with <span style="color: red;">&#10084;</span> Love :)</p>
+</body>
+
+</html>
